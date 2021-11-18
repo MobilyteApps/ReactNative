@@ -1,0 +1,58 @@
+{
+  "name": "sample_react",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^6.0.2",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@types/webrtc": "^0.0.30",
+    "add": "^2.0.6",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-audio-recorder-player": "^3.2.0",
+    "react-native-bluetooth-state-manager": "^1.3.1",
+    "react-native-camera": "^4.2.1",
+    "react-native-camera-hooks": "^0.5.2",
+    "react-native-device-info": "^8.4.3",
+    "react-native-dialog": "^9.2.0",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-imei": "^0.2.0",
+    "react-native-permissions": "^3.1.0",
+    "react-native-proximity": "pakt-digital/react-native-proximity#584f46494111c639655303cf7e4bae925641dc4a",
+    "react-native-reanimated": "^2.2.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-sensors": "^7.3.3",
+    "react-native-system-setting": "^1.7.6",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.35",
+    "@types/react-native": "^0.66.4",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.2.0",
+    "jest": "^27.3.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.5.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
